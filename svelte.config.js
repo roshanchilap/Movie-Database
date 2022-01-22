@@ -1,4 +1,4 @@
-const adapterNetlify = require('@sveltejs/adapter-netlify');
+import adapterNetlify from '@sveltejs/adapter-netlify';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
